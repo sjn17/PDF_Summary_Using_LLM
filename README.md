@@ -57,20 +57,20 @@ To connect with Bedrock from Python, create a Boto3 client using your AWS access
 
 This function takes prompt data and converts it to the expected JSON format for the Titan model. It then calls the Bedrock Titan text express model using `invoke_model` from the Boto3 client.
 
-###read_pdf_and_split
+### 'read_pdf_and_split'
 This function reads a PDF file, splits it into multiple chunks, and returns the chunks.
 
-###Installation
+### Installation
 To install the necessary libraries, run:
 '''pip install boto3 langchain pypdf unstructured[pdf]'''
 
-Contributing
+## Contributing
 If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
+## Contact
 For any questions or feedback, please contact shubhamjnikam@gmail.com
 
 
